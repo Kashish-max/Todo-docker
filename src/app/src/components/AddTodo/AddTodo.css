@@ -1,0 +1,16 @@
+.add-item {
+  padding: 30px 40px;
+}
+
+.add-item input {
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.add-item input::placeholder {
+  color: #aaa;
+}

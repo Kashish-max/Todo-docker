@@ -1,0 +1,39 @@
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 212, 222, 235;
+  --background-end-rgb: 199, 213, 231;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.App {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 60px 10px;
+  color: #8a96a2;
+}
+
+.list-container {
+  max-width: 500px;
+  padding: 20px 0 0;
+  background-color: #f0f4f6;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.list-wrapper {
+  border-top-right-radius: 30px;
+}
